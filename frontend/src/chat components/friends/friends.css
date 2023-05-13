@@ -1,0 +1,144 @@
+.ad-box2{
+    width: fit-content;
+    border: 3px solid #C5616E;
+    border-radius: 2em;
+    height: fit-content;
+    margin: 5px 2px 20px 2px;
+    text-align: center;
+    padding: 20px 40px;
+}
+.ad-box2 p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #553333;
+    border-radius: 1em 1em 0 0;
+}
+
+.friend-box-buts{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.friend-box-but{
+    display: block;
+    background-color: #C5616E;
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 2em;
+    margin-bottom: 10px;
+}
+.friend-box-but:hover{
+    text-decoration: none;
+}
+
+.ad-box2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.box-but-icons2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ad-box2 a , .ad-box3 a{
+    color: beige !important;
+}
+
+.chbtn{
+    width: 130px;
+}
+.ad-box2 .chbtn a{
+    color: #EEE !important;
+}
+
+
+.friends-page-container{
+    background-image: url("../../images/contactus.jpg");
+    background-size: cover;
+    display: flex;
+    min-height: calc(100vh - 116px);
+    padding-top: 10px;
+}
+
+.my-friends{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 0 0 1em 1em;
+    width: 49%;
+}
+.friends-page-h{
+    width: 500px;
+    margin: auto;
+    color: #d5616E;
+    border: 1px solid #d5616E;
+    padding: 10px 20px;
+    border-radius: 1em;
+}
+
+.friend-isonline{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.box-but-icons2 i{
+    background-color: #1acc10;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: transparent;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    position: absolute;
+    top: 80%;
+    left: 5px;
+}
+
+.friends-sugg{
+    text-align: center;
+    padding: 20px;
+    border-radius: 1em 1em;
+    width: 49%;
+}
+
+.ad-box3{
+    width: fit-content;
+    border: 3px solid #C5616E;
+    border-radius: 1em;
+    height: fit-content;
+    padding: 20px 23px;
+    margin: 5px 5px 20px 5px;
+    text-align: center;
+}
+.ad-box3 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.ad-box3 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+@media (min-width: 100px) and (max-width: 1040px){
+    .friends-page-container{
+        flex-direction: column;
+    }
+    .my-friends{
+        width: 100%;
+    }
+    .friends-sugg{
+        width: 100%;
+    }
+}
