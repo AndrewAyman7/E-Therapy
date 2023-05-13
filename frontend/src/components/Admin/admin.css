@@ -1,0 +1,214 @@
+.dashboard-container{
+    display: flex;
+    /*height: calc(100vh - 136px);*/
+    min-height: calc(100vh - 116px);
+}
+
+.dashboard-container i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.admin-sidebar{
+    flex: 1.5;
+    background-color: #030F21;
+    
+}
+
+.admin-main{
+    flex: 10.5;
+    background-image: url("../../images/dash2-wall.jpg");
+}
+
+.admin-sidebar-header{
+    display: flex;
+    margin: 20px 0 20px 0;
+    color: #91E0C8;
+}
+
+.admin-side-header{
+    display: inline;
+    color: #91E0C8;
+    padding-left: 5px;
+}
+
+.admin-sidebar a{
+    color: #91E0C8 !important; 
+    font-size: 22px;
+    transition:all 0.15s ease-in-out !important
+}
+
+.sidebar-admin-list{
+    display: flex;
+    flex-direction: column;
+}
+.admin-list-item{
+    margin-bottom: 15px;
+}
+.admin-list-item :hover{
+    text-decoration: none;
+    font-size: 23px !important;
+}
+
+
+.one-row-admin{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.ad-box{
+    width: 22%;
+    border: 4px solid #98FB98;
+    border-radius: 1em;
+    height: fit-content;
+    padding: 12px;
+    margin: 5px 0px 40px 0 ;
+}
+.ad-box p{
+    font-size: 20px;
+    font-weight: 500;
+    color: beige !important;
+}
+
+.box-but-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box-but-icons i{
+    background-color: #42D5C6;
+    width: 50px;
+    border-radius: 50%;
+    color: beige;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Table Styles */
+.table-header{
+    border-bottom: 5px solid #98FB98;
+    width: max-content;
+    color: #91E0C8 !important;
+    padding: 5px;
+}
+
+.dash-user-img{
+    width: 70px;
+    height: 65px;
+}
+
+.admin-dash-icon{
+    font-size: 35px !important;
+    padding-left: 17px;
+}
+
+
+.update-box3-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 4;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box3{
+    width: 700px;
+    background-color: #F5F5DC;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.update-box3 .close-form{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.textarea-det{
+    height: 160px !important;
+}
+
+.mental-categories-btns{
+    display: flex;
+    width: 335px;
+    justify-content: space-between
+}
+
+.post-new-therapist{
+    height: 1000px;
+}
+
+.update-box4-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 4;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box4{
+    width: 700px;
+    background-color: #F5F5DC;
+    height: 100vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+.dash-layer{
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: calc(100vh - 116px);
+}
+
+.add-new-therapist-but{
+    border: none;
+    padding: 15px 30px;
+    font-weight: 500;
+    background-color: #d38d78;
+    font-size: 17px;
+    color: beige;
+    margin: 10px 0 2px 0;
+}
+
+/************************ Media Query (Responsive) **************************/
+
+@media (min-width:100px) and (max-width:820px) {
+    .ad-box{
+        width: 90%;
+    }
+}
+
+@media (min-width:820px) and (max-width:1300px) {
+    .ad-box{
+        width: 47%;
+    }
+}
+
+
+@media (min-width:1300px) and (max-width:1400px) {
+    .ad-box{
+        width: 31%;
+    }
+}
+
+@media (min-width:1001px) and (max-width:1400px) {
+    
+}

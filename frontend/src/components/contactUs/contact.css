@@ -1,0 +1,117 @@
+.contact-us-container{
+    height: calc(100vh - 116px);
+    background-image: url("../../images/contactus.jpg");
+    background-size: cover;
+    padding: 70px;
+
+    /*background-image: url("../../images/chat6.jpg");
+    background-size:cover */
+}
+
+.contact-us-form-container{
+    height: fit-content;
+    max-height: 100%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+
+}
+
+.contact-us-form{
+    padding: 50px 50px 100px 50px;
+    width: 75%;
+    background-color: #FDFAEB;
+    border-radius: 1em 0 0 1em;
+    font-size: 24px;
+    font-weight: 600;
+    color: #544;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.form-sidebar{
+    background-color: #322; 
+    width: 25%;
+    color: beige;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 0 1em 1em 0;
+    position: relative;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.form-sidebar p{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    padding: 0px 10px;
+    border-bottom: 4px solid pink;
+}
+
+.contact-but{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2em;
+    background-color: #F9A99E;
+    margin-top: 50px;
+    color: beige;
+    transition:all 0.30s ease-in-out;
+}
+.contact-but:hover{
+    background-color: #534;
+}
+
+.bi-check-circle-fill{
+    color: beige;
+    font-size: 28px;
+
+}
+
+.contact-us-form textarea{
+    min-height: 70px;
+    max-height: 200px;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 700px){
+    .contact-us-container{
+        padding: 30px;
+    }
+    .contact-us-form-container{
+        width: 100%;
+    }
+    .contact-us-form{
+        padding: 15px;
+    }
+    .form-sidebar{
+        font-size: 20px;
+    }
+    .form-sidebar p{
+        padding: 1px;
+    }
+    .contact-but{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1500px){
+    .contact-us-container{
+        padding: 10px 60px;
+    }
+    .contact-us-form-container{
+        width: 80%;
+    }
+    .contact-us-form{
+        padding: 30px;
+    }
+    .form-sidebar{
+        font-size: 20px;
+    }
+    .form-sidebar p{
+        padding: 5px;
+        left: 20%;
+    }
+    .contact-but{
+        margin-top: 30px;
+    }
+}

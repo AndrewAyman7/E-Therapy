@@ -1,0 +1,126 @@
+.posts-by-category{
+    width: 75%;
+    margin: auto;
+}
+
+.category-details{
+    background-color: #7E5E47;
+    border-radius: 1em;
+    color: beige;
+    padding: 20px 80px 40px 80px;
+}
+
+.category-info{
+    background-color: beige;
+    color: #693F31;
+    padding: 40px;
+    border-radius: 2em;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cat-info-h{
+    width: max-content;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+
+.categories-page-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #693F31;
+    padding: 20px 30px;
+    color: beige;
+}
+
+.classi-page-left{
+    width: 52%;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.classi-page-right{
+    width: 45%;
+    background-color: #693F31;
+}
+
+.classi-page-left h1{
+    border: 1px solid #7E5E47;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 1em;
+}
+
+.classi-page-left p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.classi-page-right h1{
+    color: beige !important;
+}
+
+
+
+.mental-dis-rooms-btn{
+    padding: 30px;
+    border: none;
+    background-color: #FBE7C5;
+    border-radius: 2em;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #310A0B;
+    transition:all 0.15s ease-in-out;
+}
+
+.mental-dis-rooms-btn:hover{
+    background-color: rgba(251, 231, 197, 0.7);
+}
+
+.category-help{
+    border: 3px solid #FCB796;
+    border-radius: 2em;
+    padding: 20px 30px 1px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: beige;
+    margin-top: 30px;
+}
+.category-help h2{
+    color: #FCB796;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.categ-help-prop{
+    border-radius: 2em;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cp-link{
+    background-color: #FCB796;
+    margin: 10px 20px 0 15px;
+    padding: 18px;
+    border-radius: 2em;
+    color: beige !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    transition:all 0.35s ease-in-out;
+}
+
+.cp-link:hover{
+    text-decoration: none;
+    transform: scale(1.15,1.15);
+    opacity: 0.9;
+}
+
+.categ-posts-h{
+    width: fit-content;
+    margin: 10px 0 10px 15px;
+    color: #422;
+    padding: 10px 15px;
+    border-bottom: 4px solid #FCB796;
+}

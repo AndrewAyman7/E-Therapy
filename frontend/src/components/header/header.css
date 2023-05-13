@@ -1,0 +1,161 @@
+.myNav{
+    background-color: #979F8A !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.myNav i{
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.myNav i:hover{
+    opacity: 0.6;
+}
+
+.my-brand{
+    color: #EEE990 !important;
+    font-weight: 700 !important;
+}
+
+a{
+    color: white !important;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.my-btn{
+    background-color: #DCBE99 !important; 
+    color: white !important;
+}
+.my-btn2{
+    background-color: #C5616E !important; 
+    color: white !important;
+}
+
+.cont{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.box1{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.navbar , .navbar-expand-lg{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.dropdown-menu a {
+    color: black !important;
+}
+
+.mssg-nav-icon{
+    font-size: 20px;
+    color: white;
+}
+
+/*.mssg-nav-icon-box{
+    width: 50px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    text-align: center;
+    position: relative;
+}*/
+
+.mssg-nav-icon-box i{
+    width: 100%;
+}
+/*.mssg-nav-icon-box:hover{
+    background-color: rgba(0,0,0,0.1);
+}*/
+.mssg-nav-notifi{
+    width: 12px;
+    height: 12px;
+    display: inline-block;  /* 3shan elspan inline, msh bta5od width */
+    background-color: #FE0000;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.dr-do-p{
+    background-color: #979F8A;
+    display: inline-block;
+    width: 100%;
+    color: beige;
+    padding: 6px;
+}
+
+.friend-chat-nav{
+    display: flex;
+    align-items: center;
+}
+
+.friend-chat-nav div{
+    margin-right: 20px;
+}
+
+.rooms-nav-a:hover{
+    text-decoration: none;
+}
+
+.myNav img{
+    height: 40px;
+    width: 45px;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.myNav .user-nav-data{
+    display: flex;
+}
+
+.logout-btn{
+    background-color: #DCBE99 !important;
+    color: beige !important;
+}
+.logout-btn:hover{
+    opacity: 0.6;
+}
+
+.mssg-nav-icon{
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+.mssg-nav-icon-box i{
+    width: 100%;
+}
+
+.fr-r-notifi-nav{
+    position: absolute;
+    background-color: #FE0000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: -6px;
+    right: -6px;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex ;
+    justify-content: space-between;
+}
+

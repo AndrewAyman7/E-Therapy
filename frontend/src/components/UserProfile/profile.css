@@ -1,0 +1,190 @@
+.profile-container{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #F0F2F5;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-left{
+    width: 68%;
+}
+
+.profile-right{
+    width: 27%;
+    padding-top: 20px;
+    background-color: #FCBCA0;
+    color: #E5616E !important;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 2em;
+    height: max-content;
+    text-align: center;
+}
+
+.profile-header{
+    background-color: beige;
+    text-align: center;
+    height: fit-content;
+    border-radius: 2em;
+    padding-bottom: 20px;
+}
+
+.profile-header img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.profile-header-h{
+    width: 400px;
+    margin: auto;
+    padding: 5px 0 5px 0;
+    color: #89042F;
+    border-bottom: 4px solid #CE9969;
+    border-top: 4px solid #CE9969;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.profile-posts-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.profile-right-rooms{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    border-top: 1px solid beige;
+    padding-top: 8px;
+}
+
+.room-profile-box{
+    background-color: #FAE1C2;
+    margin-bottom: 50px;
+    border-radius: 1em;
+    padding: 15px;
+    color: brown;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    transition:all 0.25s ease-in-out;
+}
+
+.room-profile-box:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.upload-profile-form{
+    width: 350px;
+    margin: auto !important;
+    margin-top: 10px !important;
+    padding: 10px;
+}
+
+.upload-profile-form input{
+    background-color: beige;
+    display: inline-block;
+}
+
+.chat-profile-btn{
+    padding: 13px;
+    border: none;
+    width: 80%;
+    border-radius: 2em;
+    margin-bottom: 20px; 
+    background-color: #FADA44;
+    color: brown;
+    font-size: 18px;
+    font-weight: 500;
+    transition:all 0.35s ease-in-out;
+}
+
+.chat-profile-btn:hover{
+    background-color: #FFFAA0;
+    transform: scale(1.1);
+}
+
+.mutual-friends{
+    margin-bottom: 60px;
+    margin-top: 20px;
+    border-top: 1px solid beige;
+    padding-top: 8px;
+}
+
+.mutual-friend-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #E5616E;
+    padding: 10px;
+    border-radius: 1em;
+    color: beige;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    height: fit-content
+}
+.mutual-friend-box:hover{
+    background-color: rgba(197,97,110,0.7);
+}
+.mutual-friend-box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.mutual-friend-box h4{
+    width: 70%;
+}
+
+/************************ Media Query (Responsive) **************************/
+
+@media (min-width:100px) and (max-width:830px) {
+    .profile-container{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .profile-left{
+        width: 100%;
+    }
+    .profile-header{
+        border-radius: 1em 1em 2em 2em;
+    }
+    .profile-right{
+        width: 60%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width:830px) and (max-width:1200px) {
+    .profile-container{
+        width: 100%;
+        padding: 10px;
+    }
+    .profile-right{
+        padding: 1px;
+        height: fit-content;
+    }
+    .mutual-friend-box{
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (min-width:1001px) and (max-width:1700px) {
+
+}
+
+@media (min-width:1001px) and (max-width:1400px) {
+
+}

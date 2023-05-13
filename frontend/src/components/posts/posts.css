@@ -1,0 +1,364 @@
+
+.home-posts{
+    width: 75%;
+    margin: auto;
+}
+
+/* PostItem Page */
+.post-item a{
+    color: brown !important;
+}
+
+.post-item{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #7E5E47;
+    margin: 20px 0;
+    color: #693F31;
+    border-radius: 3px;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.post-item-img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.post-header-author{
+    height: 125px;
+    width: 500px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.post-header-author-img{
+    width: 30%;
+}
+.post-header-author-title{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post-header-author-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+.cat{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    background-color: #693F31;
+    padding: 10px 20px;
+    border-radius: 50%;
+    z-index: 0;
+}
+.cat a{
+    color: beige !important;
+}
+.sidebar-categ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition:all 0.20s ease-in-out;
+}
+
+.sidebar-categ a{
+    color: beige !important;
+    font-size: 30px;
+    background-color:  #7E5E47;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    transition:all 0.25s ease-in-out;
+}
+
+.sidebar-categ a:hover{
+    opacity: 0.9;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.cat-header1{
+    color: #7E5E47 !important;
+    border-bottom: 4px solid #7E5E47;
+    border-top: 4px solid #7E5E47;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.prev , .next , .pagination .page{
+    border: 1px solid #7E5E47;
+    padding: 3px 9px;
+    cursor: pointer;
+}
+.prev , .next , .pagination .page:hover{
+    background-color: #AE5E47;
+}
+.prev{
+    border-radius: 5px 0 0 5px;
+}
+.next{
+    border-radius: 0 5px 5px 0;
+
+}
+
+.active{
+    background-color: #FCF558;
+}
+
+/* Create Post */
+
+.post-form1{
+    height: calc(100vh - 116px);   /* 100vh - (nav+footer) */
+    background-image: url("../../images/contactus.jpg");
+    background-size: cover;
+    padding: 40px;
+}
+.cr-post-form{
+    width: 50%;
+    margin: auto;
+    background-color: beige;
+    padding: 40px 60px;
+    margin-top: 30px;
+    box-shadow: 0px -5px 10px 0px #C5616E;
+    border-radius: 2em;
+    font-weight: 500;
+    color: #C5616E;
+}
+.cr-post-btn{
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #C5616E;
+    color: beige;
+    border: none;
+    margin-top: 10px;
+    transition:all 0.25s ease-in-out;
+}
+.cr-post-btn:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.cr-post-h{
+    color: #C5616E;
+}
+
+/* PostItemDetails Page*/
+
+.post-item-details-img{
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 10px;
+    height: 600px;
+}
+
+.cat2{
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+    background-color: gold;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+
+.post-item i{
+    font-size: 23px;
+    font-weight: 600;
+    color: brown;
+    cursor: pointer;
+}
+
+.like-span{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.likes-count{
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid brown;
+    border-radius: 50%;
+    margin-right: 7px;
+    padding: 3px 5px 3px 9px;
+    color: brown;
+}
+
+.post-details-user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-details-user-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.post-details-user-name{
+    margin-left: 10px;
+}
+
+
+/* Update Post */
+.update-box-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 4;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box{
+    width: 700px;
+    background-color: #F5F5DC;
+    height: 500px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.update-box .close-form{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.close-form i{
+    color: brown;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.post-update-form{
+    width: 80%;
+    margin: auto;
+    color: #8D4414;
+    padding-top: 5px;
+}
+
+.post-details-anchor{
+    background-color: #7E5E47;
+    color: beige !important;
+    display: inline-block;
+    width: max-content;
+    padding: 10px !important;
+    border-radius: 1em;
+    margin-top: 30px;
+}
+.details-span{
+    padding-right: 20px;
+    color: beige !important;
+    font-size: 16px !important;
+}
+
+.det-ic{
+    color: beige !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    padding-right: 5px !important;
+}
+.post-details-anchor:hover{
+    opacity: 0.9;
+    text-decoration: none;
+}
+.center-det{
+    margin: auto;
+}
+
+.comments-info{
+    color: brown;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 0 3px;
+}
+.comm-pad{
+    padding-right: 5px;
+}
+
+.post-item-details{
+    width: 70%;
+    margin: auto;
+    padding: 40px 70px;
+    margin-top: 70px;
+}
+
+.see-likes{
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.report{
+    display: flex;
+    border: 1px solid brown;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 2em;
+    color: brown !important;
+    cursor: pointer;
+    margin-top: 10px;
+    transition:all 0.20s ease-in-out;
+}
+.report:hover{
+    border: 1px solid #FEC830;
+}
+
+.report-text{
+    font-weight: 700;
+    padding-top: 6px;
+}
+
+.report-icon{
+    padding-left: 6px;
+    display: inline-block;
+}
+
+@media (min-width:100px) and (max-width:1000px) {
+    .home-posts{
+        width: 100%;
+    }
+
+    .post-item-details{
+        width: 92%;
+        margin: auto;
+        padding: 20px 30px;
+        margin-top: 30px;
+    }
+    .cr-post-form{
+        width: 80%;
+        
+    }
+}
+
+@media (min-width:1001px) and (max-width:1400px) {
+    .home-posts{
+        width: 100%;
+    }
+}

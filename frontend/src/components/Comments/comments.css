@@ -1,0 +1,77 @@
+.comments-container{
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+    color: black;
+    padding: 10px;
+    color: beige;
+    display: flex;
+    flex-direction: column-reverse; /* To MAke Comments List as a stack , elgdeed foo2 */
+}
+
+.comment{
+    background-color: #979F8A;
+    padding: 20px 80px 15px 20px;
+    width: 100%;
+    border-radius: 2em;
+}
+.comment-user-a:hover{
+    text-decoration: none !important;
+}
+
+.comment-date{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.comment-user-a{
+    color: beige !important;
+}
+
+.post-update-delete-settings{
+    display: flex;
+    width:355px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.update-box2-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 4;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box2{
+    width: 700px;
+    background-color: #F5F5DC;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.update-box2 .close-form{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.close-form i{
+    color: brown;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.post-update-form{
+    width: 80%;
+    margin: auto;
+    color: #8D4414;
+    padding-top: 5px;
+}

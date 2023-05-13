@@ -1,0 +1,247 @@
+.therapists-page{
+    background-color: beige;
+    padding: 30px;
+    height: max-content;
+}
+
+.therapists-container{
+    width: 70%;
+    margin: auto;
+}
+
+.therapist-info{
+    background-color: #BB7155;
+    width: 80%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    border-radius: 25px;
+    transition:all 0.35s ease-in-out;
+}
+
+.therapist-info:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #EE7155;
+}
+
+.therapist-img{
+    width: max-content;
+    margin: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.therapist-details{
+    width: 70%;
+    color: beige;
+    padding: 20px;
+}
+
+.therapist-info img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.bi-star-fill{
+    color: #FCC201;
+    font-size: 35px;
+}
+
+.rate-box input[type="radio"]{
+    display: none;
+}
+
+.therapist-profile-dr-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+}
+
+.therapist-box{
+    width: 100%;
+    position: relative;
+}
+
+.rate-box{
+}
+
+.rate-box button{
+    background-color: beige;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    right: 150px;
+    bottom: 60px;
+    opacity: 0.5;
+    transition:all 0.30s ease-in-out;
+    border-radius: 2em;
+}
+
+.rate-box button:hover{
+    background-color: #FCC201;;
+}
+
+.therapist-info-profile{
+    background-color: #BB7155;
+    width: 80%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    border-radius: 25px;
+    transition:all 0.35s ease-in-out;
+}
+
+.therapist-info-profile img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.update-box-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 4;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box-rate{
+    width: 450px;
+    background-color: #F5F5DC;
+    height: 170px;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.update-box-rate .close-form{
+    position: absolute;
+    right: 3px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.close-form i{
+    color: brown;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.my-star{
+    font-size: 35px;
+    cursor: pointer;
+    transition:all 0.20s ease-in-out;
+}
+
+
+.my-star:hover{
+    color: #FCC201;
+}
+.my-star-2{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.therapist-header-page{
+    width: 320px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #DD7155;
+    font-weight: 600;
+    border-bottom: 4px solid #EE7155;
+}
+
+
+/************************ Media Query (Responsive) **************************/
+
+@media (min-width:100px) and (max-width:1200px) {
+    .therapists-container{
+        width: 100%;
+    }
+
+    .therapist-info{
+        width: 98%;
+    }
+
+    .therapist-info:hover{
+        transform: scale(1.07);
+    }
+
+    .therapist-details{
+        padding: 10px;
+    }
+
+    .therapist-img img{
+        padding : 15px;
+    }
+
+    .therapist-profile-dr-container{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        background-color: beige;
+    }
+    .therapist-info-profile{
+        background-color: #BB7155;
+        width: 90%;
+        margin: auto;
+        height: max-content;
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: space-between;
+        border-radius: 2px;
+        transition:all 0.35s ease-in-out;
+    }
+    
+    .therapist-info-profile img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+
+    
+    
+}
+
+@media (min-width:100px) and (max-width:680px) {
+    .rate-box button{
+        right: 35px;
+        bottom: 57px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:681px) and (max-width:1000px) {
+    .rate-box button{
+        right: 50px;
+        bottom: 57px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:1001px) and (max-width:1400px) {
+
+}
